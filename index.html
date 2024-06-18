@@ -1,0 +1,91 @@
+<header class="header">
+  <h1>Yatra Shucna</h1>
+  <div>
+    <a href="https://codeyogistudent.github.io/Yatrashuchna-/" target="_blank"
+      >Home</a
+    >
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+<div class="inf">
+  <div>
+    <p class="p1">
+      केदारनाथ मन्दिर भारत के उत्तराखण्ड राज्य के रुद्रप्रयाग जिले में स्थित
+      हिन्दुओं का प्रसिद्ध मंदिर है। उत्तराखण्ड में हिमालय पर्वत की गोद में
+      केदारनाथ मन्दिर बारह ज्योतिर्लिंग में सम्मिलित होने के साथ चार धाम [क] और
+      पंच केदार[ख] में से भी एक है। 
+    </p>
+  </div>
+
+  <div class="toggle-button" onclick="toggleContent()">
+    <span
+      >केदारनाथ यात्रा:– <span style="color: blue">पूरा पढ़े </span> पर क्लिक
+      करें</span
+    >
+  </div>
+  <div id="more-info" class="details">
+    केदारनाथ धाम की यात्रा उत्तराखंड की पवित्र छोटा 5 धाम यात्रा के महत्वपूर्ण
+    चार मंदिरों में से एक है। छोटा चार धाम यात्रा हर वर्ष आयोजित की जाती है।
+    केदारनाथ यात्रा के अलावा अन्य मदिर बद्रीनाथ, गंगोत्री, और यमुनोत्री हैं।
+    केदारनाथ यात्रा में शामिल होने के लिए वर्ष मदिर के खुलने की तिथि तय की जाती
+    है। मंदिर के खुलने की तिथि हिंदू पंचांग की गणना के बाद ऊखी केद की उद्घाटन
+    तिथि अक्षय तृतीया के शुभ दिन और महा शिवरात्रि पर हर साल घोषित की जाती है। और
+    केदारनाथ मंदिर की समापन तिथि हर वर्ष नवंबर के आसपास दिवाली त्योहार के बाद
+    भाई दूज के दिन होती है। इसके बाद मंदिर के द्वार शीत काल के लिए बंद कर दिए
+    जाते हैं।
+  </div>
+  </div>
+
+<footer class="footer">
+  <p>&copy; 2024 Yatra Shucna. All rights reserved.</p>
+</footer>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  
+}
+.header,
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.details {
+  display: none;
+}
+.toggle-button {
+  cursor: pointer;
+}
+.inf {
+  padding: 10px;
+}
+.p1 {
+  margin: 10px;
+}
+.header div a {
+  color: #fff;
+  margin-top: 0 10px;
+}
+  
+</style>
+<script>
+  function toggleContent() {
+  var content = document.getElementById("more-info");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+  }
+</script>
